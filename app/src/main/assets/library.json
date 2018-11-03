@@ -1,0 +1,74 @@
+[
+  {
+    "bookId": 1,
+    "bookTitle": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "imageUrl": "https://target.scene7.com/is/image/Target/GUEST_640f3e10-4443-42ea-80d1-197f28805912?wid=488&hei=488&fmt=pjpeg"
+  },
+  {
+    "bookId": 2,
+    "bookTitle": "Guide to Investing",
+    "author": "Robert Kiyosaki",
+    "imageUrl": "http://motivated2inspire.com/wp-content/uploads/2018/02/guide-to-investing-book.png"
+  },
+  {
+    "bookId": 3,
+    "bookTitle": "Thinking Fast and Slow",
+    "author": "Daniel Kahneman",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41shZGS-G%2BL.jpg"
+  },
+  {
+    "bookId": 1,
+    "bookTitle": "Shoe Dog",
+    "author": "Phil Knight",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71KkAKYWcuL.jpg"
+  },
+  {
+    "bookId": 4,
+    "bookTitle": "7 Habits of Highly Effective People",
+    "author": "Stephen Covey",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51HshB5UNCL._SX313_BO1,204,203,200_.jpg"
+  },
+  {
+    "bookId": 5,
+    "bookTitle": "The Intelligent Investor",
+    "author": "Benjamin Graham",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/513e7BP39PL._SX330_BO1,204,203,200_.jpg"
+  },
+  {
+    "bookId": 6,
+    "bookTitle": "Power of Habit",
+    "author": "Charles Duhigg",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/819ZixpQzUL.jpg"
+  },
+  {
+    "bookId": 7,
+    "bookTitle": "Think and Trade Like A Champion",
+    "author": "Mark Minervini",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51%2Bmo6ci4wL._SX342_BO1,204,203,200_.jpg"
+  },
+  {
+    "bookId": 8,
+    "bookTitle": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51Uw5tYiqsL.jpg"
+  },
+  {
+    "bookId": 9,
+    "bookTitle": "The Secret",
+    "author": "Rhonda Byrne",
+    "imageUrl": "https://k1tbfzr5bv4catkk35y5rozn-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/TS-Web-Mobile_800x800px-square_template_medium-sta.jpg"
+  },
+  {
+    "bookId": 10,
+    "bookTitle": "The Art of Public Speaking",
+    "author": "Dale Carnegie",
+    "imageUrl": "https://rukminim1.flixcart.com/image/832/832/book/0/6/2/the-art-of-public-speaking-original-imadpw8jw4yxvedz.jpeg?q=70"
+  },
+  {
+    "bookId": 11,
+    "bookTitle": "Talk Like Ted",
+    "author": "Carmine Gallo",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41JSw4A-O2L._SX329_BO1,204,203,200_.jpg"
+  }
+]
