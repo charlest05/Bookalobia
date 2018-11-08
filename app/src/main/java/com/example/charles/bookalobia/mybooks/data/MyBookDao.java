@@ -1,5 +1,8 @@
 package com.example.charles.bookalobia.mybooks.data;
 
+import java.util.List;
+
+import androidx.lifecycle.LiveData;
 import androidx.paging.DataSource;
 import androidx.room.Dao;
 import androidx.room.Delete;
@@ -21,7 +24,13 @@ public interface MyBookDao {
     int deleteMyBook(MyBook myBook);
 
     @Query("SELECT * FROM my_book")
-    DataSource.Factory<Integer, MyBook> getMyBooks();
+    DataSource.Factory<Integer, MyBook> getMyBooksDataSource();
+
+    @Query("SELECT * FROM my_book")
+    List<MyBook> getMyBooks();
+
+    @Query("SELECT * FROM my_book")
+    LiveData<List<MyBook>> getMyBooksLiveData();
 
     @Query("SELECT * FROM my_book where book_id = :bookId")
     MyBook getMyBook(int bookId);
