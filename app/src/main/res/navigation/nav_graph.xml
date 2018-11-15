@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/myBooksFragment">
+
+    <fragment
+        android:id="@+id/myBooksFragment"
+        android:name="com.example.charles.bookalobia.mybooks.MyBooksFragment"
+        android:label="fragment_my_books"
+        tools:layout="@layout/fragment_my_books">
+        <action
+            android:id="@+id/action_myBooksFragment_to_viewBookFragment"
+            app:destination="@id/viewBookFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_myBooksFragment_to_favoriteBooksFragment"
+            app:destination="@+id/favoriteBooksFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteBooksFragment"
+        android:name="com.example.charles.bookalobia.FavoriteBooksFragment"
+        android:label="fragment_favorite_books"
+        tools:layout="@layout/fragment_favorite_books" />
+    <fragment
+        android:id="@+id/viewBookFragment"
+        android:name="com.example.charles.bookalobia.viewbook.ViewBookFragment"
+        android:label="fragment_view_book"
+        tools:layout="@layout/fragment_view_book" >
+    </fragment>
+</navigation>
